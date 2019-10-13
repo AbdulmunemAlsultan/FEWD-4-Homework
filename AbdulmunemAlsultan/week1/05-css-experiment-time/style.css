@@ -1,0 +1,124 @@
+body {
+	background-color:  #fbfcfc;
+}
+.aa .hp-issue-index {
+	color: blue;
+	text-decoration: underline;
+	text-align: center;
+	background-color:  #e5e7e9;
+	padding: 20px;
+	margin: 0px;
+}
+.aa .hp-issue-article-list {
+	color: red;
+	background-color:#f2f3f4;
+	margin-top: 0px;
+	padding: 20px;
+}
+.aa .hp-issue-article-list li{
+	padding: 15px;
+	width: 30%;
+	margin-left: 5%;
+	margin-right:5%;
+	list-style-type: none;
+
+}
+li {
+	display: inline;
+	text-decoration: underline;
+}
+li:hover {
+	color: black;
+}
+.clearfix {
+	clear: both;
+}
+img {
+	width: 65%;
+	height: 200px;
+	margin-left: 16.5%;
+	margin-top: 8%;
+	border:1px solid black;
+
+}
+
+.hp-news-block-container {
+	
+	border:1px solid black;
+	width: 30.0%; 
+	float: left;
+	padding: 5px;
+	margin-right: 1%;
+	margin-left: 1%;
+	border:2px solid black;
+	background-color:  #fef5e7;
+}
+
+.hp-news-block-container .hp-news-category {
+  position: absolute;
+ width: 30%;
+ display: block;
+ text-align: center;
+ margin-top: 0px;
+ padding: 5px;
+ font-size: 18px;
+ font-weight: bold;
+ color: blue;
+
+}
+.hp-news-block-container .hp-news-title {
+	
+	width: 70%;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px auto auto;
+	float: left;
+	margin-left: 16.5%;
+	height: 100px;
+	margin-top: 35px;
+      font-style: initial;
+     font-weight: normal;
+
+}
+.hp-news-block-container .hp-news-author {
+
+	width: 70%;
+	text-align: center;
+	margin-left: 16.5%;
+}
+ .hp-news-block-container .hp-news-date {
+ 		
+width: 70%;
+	text-align: center;
+	margin-left: 16.5%;
+ }
+ .footer-container .footer-block-container {
+ border:2px solid black;
+ margin-top: 10px;
+ background-color:  #fcf3cf;
+ font-style: italic;
+ }
+
+ .footer-container .footer-block-container:first-of-type {
+ 	width: 60%;
+ 	margin-left: 20%;
+ 	margin-right: 20px;
+ 	padding: 5px;
+ 	border-radius: 10px;
+ 	line-height: 1.3;
+ 	text-align: justify;
+ }
+
+ .footer-container .footer-block-container:not(:first-of-type) {
+ 	width: 45%;
+ 	margin-left: 3%;
+ 	border-radius: 10px;
+ 	line-height: 1.3;
+ 	float: left;
+ 	padding: 3px;
+ 	margin-right: 5px;
+ 	font-size: 14.5px;
+ 	height: 135px;
+ 	padding-top: 0px;
+ 	text-align: justify;
+ }
