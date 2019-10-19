@@ -1,0 +1,101 @@
+body{
+	margin: 0px;
+	background-color: white;
+}
+
+.container {
+	width: 70%;
+    padding: 15px;
+	height: auto;
+    margin: 20px auto 20px;
+    border:1px solid black;
+    background-color:  #797d7f ;
+
+}
+.contant {
+width: 99%;
+border:2px solid black;
+height: 130px;
+background-color: #d0d3d4;
+
+}
+
+.contant .header {
+	width: 40%;
+	height: 40px;
+	margin-top: 35px;
+	float: left;
+	margin-left: 6.5%;
+
+}
+
+.contant .header:first-of-type {
+	background-color: #f2f3f4;
+	border:1px solid black;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.contant .header h2 {
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+.contant .header ul {
+	padding-top: 0%;
+}
+.contant .header li{
+  font-size: 18px;
+  list-style-type: none;
+border-right:1px solid black;
+width: 12%;
+display: inline;
+ text-align: center;
+ padding: 5px 15px 0px;
+ float: right;
+}
+
+ .contant:not(:first-of-type) {
+ 	margin-top: 0px;
+ 	height: 200px;
+ 	background-color: #f2f3f4;
+ }
+
+ .contant .paragrph {
+ 	text-align: center;
+ 	width: 50%;
+ 	font-size: 35px;
+ 	padding-top: 50px;
+ 	padding-left: 25%;
+ }
+.contant .squer {
+	height: 150px;
+	display: inline-block;
+      background-color: white;
+      width: 20%;    
+      border:2px solid black;
+    margin: 1% 1% 0% 8.5%;
+}
+
+.contant .squer .item {
+
+	position: absolute;
+	margin: 12.8% 5.5%;
+	font-weight: bold;
+}
+
+.footer {
+	padding-left: 1%;
+	padding-right: 3%;
+	padding-top: 1%;
+	font-weight: bold;
+	float: right;
+	font-size: 18px;
+
+}
+
+
+
